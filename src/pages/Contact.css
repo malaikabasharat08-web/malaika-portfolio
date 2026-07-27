@@ -1,0 +1,34 @@
+.contact-box {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.sent-msg {
+  text-align: center;
+  color: #38bdf8;
+  font-size: 1.2rem;
+}
