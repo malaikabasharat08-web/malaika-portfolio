@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <section className="hero-section">
-        <span className="badge">Welcome to my Portfolio</span>
+        <span className="badge">Welcome my Portfolio</span>
         <h1>Hi, I'm a <span className="highlight">Full-Stack & Automation</span> Developer</h1>
         <p>I build modern web applications and automated workflows using React, JavaScript, and n8n.</p>
         <div className="hero-buttons">
