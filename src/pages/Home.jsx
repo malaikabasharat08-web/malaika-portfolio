@@ -21,6 +21,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
+      {/* Hero Section */}
       <section className="hero-section">
         <span className="badge">Welcome my Portfolio</span>
         <h1>Hi, I'm a <span className="highlight">Full-Stack & Automation</span> Developer</h1>
@@ -31,8 +32,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Technical Expertise Section */}
       <section className="skills-section">
         <h2>Technical Expertise</h2>
+        
+        {/* Category Filters */}
         <div className="filter-buttons">
           {['All', 'Frontend', 'Backend', 'Workflow', 'Tools'].map((cat) => (
             <button
@@ -44,6 +48,8 @@ export default function Home() {
             </button>
           ))}
         </div>
+
+        {/* Skills Cards Grid */}
         <div className="skills-grid">
           {filteredSkills.map((skill, idx) => (
             <div key={idx} className="skill-card">
